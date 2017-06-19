@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <ImageView
+            android:id="@+id/amore_tu_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fanhuianniu"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smore_tu_title"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            android:textColor="@color/green"
+            />
+    </RelativeLayout>
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="@dimen/amore_tu_ll_paddleft"
+            android:background="@drawable/turangbeijing"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:id="@+id/amore_tu_tem_val_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="当前土壤温度：32"
+                    android:textColor="@android:color/holo_orange_dark" />
+                <TextView
+                    android:id="@+id/amore_tu_hum_val_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="当前土壤湿度：25"
+                    android:textColor="@android:color/holo_orange_dark" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:id="@+id/amore_tu_tem_setting_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="温度设定范围：17~~170"
+                    android:textColor="@android:color/holo_orange_dark" />
+                <TextView
+                    android:id="@+id/amore_tu_hum_setting_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="湿度设定范围：17~~170"
+                    android:textColor="@android:color/holo_orange_dark" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/amore_tu_lamp_iv"
+                android:layout_width="@dimen/many_icon_size"
+                android:layout_height="@dimen/many_icon_size"
+                android:background="@drawable/lamp_seletor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/amore_tu_water_iv"
+                android:layout_width="@dimen/many_icon_size"
+                android:layout_height="@dimen/many_icon_size"
+                android:background="@drawable/water_seletor"
+                android:layout_marginRight="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/amore_tu_buzzer_iv"
+                android:layout_width="@dimen/many_icon_size"
+                android:layout_height="@dimen/many_icon_size"
+                android:background="@drawable/buzzer_seletor"
+                android:layout_marginLeft="15dp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

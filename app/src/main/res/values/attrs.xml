@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--属性的集合，所有自定义控件的属性都会写在里面-->
+    <declare-styleable name="MyCircleImageView">
+        <attr name="src" format="reference"/><!--引用类型-->
+    </declare-styleable>
+</resources>

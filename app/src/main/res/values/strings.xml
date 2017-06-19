@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">智能农业</string>
+    <!--主界面-->
+    <string name="smain_home_text">首页</string>
+    <string name="smain_setting_text">设置</string>
+    <string name="smain_help_text">帮助</string>
+    <!--详情界面-->
+    <string name="smore_air_title">空气详情</string>
+    <string name="smore_co2_title">CO2详情</string>
+    <string name="smore_light_title">光照详情</string>
+    <string name="smore_tu_title">土壤详情</string>
+    <!--手动设置界面-->
+    <string name="sshoudong_co2">CO2浓度设置</string>
+    <string name="sshoudong_light">光照强度设置</string>
+    <string name="sshoudong_air">空气温度设置</string>
+    <string name="sshoudong_tu">土壤温度设置</string>
+    <string name="sshoudong_title">手动设置</string>
+    <string name="syuzhi_title">阈值设置</string>
+    <string name="shelp_title">帮助</string>
+    <string name="shome_title">智能农业</string>
+    <string name="ssetting_title">设置</string>
+    <string name="ssetting_banben">版本更新</string>
+    <string name="ssetting_guanyu">关于我们</string>
+    <string name="ssetting_qingchu">清除缓存</string>
+    <string name="ssetting_zidong">自动控制</string>
+</resources>

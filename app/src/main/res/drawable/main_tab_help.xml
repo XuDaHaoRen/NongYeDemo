@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--当某一个事件成立的时候，使用哪一种-->
+    <!--当被一直选中的时候，只适用于CheckBox RadioButton-->
+    <item android:state_checked="true" android:drawable="@drawable/bangzhu_lu"  />
+    <item android:drawable="@drawable/b3"  />
+
+</selector>

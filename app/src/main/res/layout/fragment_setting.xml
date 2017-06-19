@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/ssetting_title"
+        />
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <include layout="@layout/view_zidong" />
+
+        <include layout="@layout/view_qingchu" />
+
+        <include layout="@layout/view_banben" />
+
+        <include layout="@layout/view_guanyu" />
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/fsetting_guanyu_ani_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/azidong_back_iv">
+
+        <ImageView
+            android:id="@+id/fsetting_guanyu_logn_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_nong"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:layout_toRightOf="@+id/fsetting_guanyu_logn_iv"
+            android:textSize="14sp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="   农业智能，又称农务智能，简写为AI。与商业智能BI具有类似的定义，只是应用领域不同而已。建设社会主义新农村，就离不开数字农业和农业信息化，智能化是农业增收、农民增效的重要途径，因此农业智能是“十一五”数字农业发展的一个重要领域。"
+
+            />
+    </RelativeLayout>
+
+    <View
+    style="@style/LineStyle"
+    />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/cbackground_gray"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/fsetting_tuichu_rl"
+            android:background="@drawable/setting_item_bg"
+            >
+            <ImageView
+                android:id="@+id/asetting_exit_iv"
+                android:layout_width="@dimen/dsetting_left_icon_size"
+                android:layout_height="@dimen/dsetting_left_icon_size"
+                android:src="@drawable/my_exit"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="退出登录"
+                android:layout_toRightOf="@id/asetting_exit_iv"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/azidong_left_text_size"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/cbackground_gray"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

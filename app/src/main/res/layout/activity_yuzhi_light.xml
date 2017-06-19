@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/ayuzhi_light_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/fanhuianniu" />
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="@string/syuzhi_title" />
+    </RelativeLayout>
+
+    <View style="@style/LineStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/cbackground_gray" />
+
+    <View style="@style/LineStyle" />
+
+    <View style="@style/LineStyle" />
+
+    <include layout="@layout/view_yuzhi_light" />
+    <View style="@style/LineStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/cbackground_gray" />
+
+    <View style="@style/LineStyle" />
+
+    <TextView
+        android:id="@+id/ayuzhi_light_sure_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <View style="@style/LineStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/cbackground_gray" />
+
+
+</LinearLayout>

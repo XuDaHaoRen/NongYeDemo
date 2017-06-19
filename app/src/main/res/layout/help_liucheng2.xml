@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/fhelp_two_tv"
+        style="@style/LiuChengTextView"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="2、第二条操作指引" />
+
+    <ImageView
+        android:id="@+id/fhelp_two_arrow_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/xiangxia"
+        android:layout_marginTop="5dp"
+        />
+    <RelativeLayout
+        android:id="@+id/fhelp_two_ani_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/azidong_back_iv">
+
+        <ImageView
+            android:id="@+id/fsetting_guanyu_logn_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_nong"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:layout_toRightOf="@+id/fsetting_guanyu_logn_iv"
+            android:textSize="14sp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="   在首页，可以实时查看沙盘的各项参数值"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

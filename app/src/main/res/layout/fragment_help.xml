@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbackground_gray"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:background="@android:color/white"
+        android:text="@string/shelp_title" />
+
+    <View style="@style/LineStyle" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/fhelp_ani_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:animateLayoutChanges="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="操作指引"
+                android:textSize="18sp" />
+
+            <include layout="@layout/help_liucheng1" />
+
+            <include layout="@layout/help_liucheng2" />
+
+            <include layout="@layout/help_liucheng3" />
+
+            <include layout="@layout/help_liucheng4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

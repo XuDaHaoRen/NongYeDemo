@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#c6c6c6</color>
+    <color name="submit_btn_select">#00FA9A</color>
+    <color name="submit_btn_normal">#63c999</color>
+    <color name="color_main_text">#879490</color>
+    <color name="green">#64c999</color>
+    <color name="cbackground_gray">#f6f6f6</color><!--#f6f6f6-->
+    <color name="cliucheng_bg">#64CA98</color>
+</resources>

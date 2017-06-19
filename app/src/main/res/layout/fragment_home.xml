@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/shome_title"
+        />
+    <View
+        style="@style/LineStyle"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+                <com.zhouwei.mzbanner.MZBannerView
+                    android:id="@+id/fhome_banner_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    app:open_mz_mode="true"
+                    app:canLoop="true"
+                    app:indicatorAlign="center"
+                    app:indicatorPaddingLeft="10dp"
+                    />
+
+            </RelativeLayout>
+            <!--只有一张图片没有办法做轮播，填充整个内容,不显示-->
+            <ImageView
+                android:id="@+id/home_one_iv"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:visibility="gone" />
+
+            <include layout="@layout/view_co2" />
+
+            <include layout="@layout/view_light" />
+
+            <include layout="@layout/view_tu" />
+
+            <include layout="@layout/view_air" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

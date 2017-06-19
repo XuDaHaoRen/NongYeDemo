@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/fhelp_four_tv"
+        android:layout_marginTop="10dp"
+        style="@style/LiuChengTextView"
+        android:text="4、第四条操作指引"
+        android:gravity="center"
+        />
+    <RelativeLayout
+        android:id="@+id/fhelp_four_ani_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/azidong_back_iv"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/fsetting_guanyu_logn_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_nong"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:layout_toRightOf="@+id/fsetting_guanyu_logn_iv"
+            android:textSize="14sp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="   在设置页面，可以手动设置阈值的参数，调节环境的参数的阈值。"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>

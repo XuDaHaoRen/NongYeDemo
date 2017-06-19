@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--home中的list列表的文字大小-->
+    <dimen name="dhome_list_title_size">15sp</dimen>
+    <dimen name="dhome_line2_black_size">15sp</dimen>
+    <dimen name="dhome_line2_red_size">16sp</dimen>
+    <dimen name="dhome_line3_blue_size">15sp</dimen>
+    <dimen name="dhome_line3_gray_size">13sp</dimen>
+    <dimen name="dhome_item_view_height">130dp</dimen>
+    <dimen name="dhome_item_double_view_height">150dp</dimen>
+    <!--间距的大小-->
+    <dimen name="dhome_gray_margin_left">15dp</dimen>
+    <dimen name="dhome_linear_margin">10dp</dimen>
+    <dimen name="dhome_red_margin_left">10dp</dimen>
+    <dimen name="dhome_title_margin">10dp</dimen>
+    <dimen name="dhome_red_margin">15sp</dimen>
+    <dimen name="dhome_yujing_width">63dp</dimen>
+    <dimen name="dhome_yujing_height">28dp</dimen>
+    <dimen name="dhome_back_size">25dp</dimen>
+    <dimen name="dhome_back_margin_right">5dp</dimen>
+    <dimen name="dhome_doublelinear_margin_top">5dp</dimen>
+    <!--设置界面-->
+    <dimen name="dsetting_left_icon_size">25dp</dimen>
+    <dimen name="azidong_left_text_size">15sp</dimen>
+    <dimen name="dsetting_right_text_size">15sp</dimen>
+    <dimen name="dsetting_back_icon_size">20dp</dimen>
+    <dimen name="many_icon_size">115dp</dimen>
+    <!--主界面-->
+    <dimen name="dmain_text_pic_padding">5dp</dimen>
+    <dimen name="dmain_bottom_text_size">16sp</dimen>
+    <!--详情界面-->
+    <dimen name="amore_tu_ll_paddleft">30dp</dimen>
+    <dimen name="dhome_padding_pic">10dp</dimen>
+    <dimen name="dhome_last_view_bottom">10dp</dimen>
+    <!--设置界面-->
+</resources>

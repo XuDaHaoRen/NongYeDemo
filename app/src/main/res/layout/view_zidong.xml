@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/fsetting_zidong_rl"
+    android:background="@drawable/setting_item_bg"
+    >
+    <ImageView
+        android:id="@+id/fsetting_banben_left_iv"
+        android:layout_width="@dimen/dsetting_left_icon_size"
+        android:layout_height="@dimen/dsetting_left_icon_size"
+        android:background="@drawable/zidongkongzhi"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ssetting_zidong"
+        android:layout_toRightOf="@id/fsetting_banben_left_iv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/azidong_left_text_size"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        />
+    <ImageView
+        android:id="@+id/azidong_back_iv"
+        android:layout_width="@dimen/dsetting_back_icon_size"
+        android:layout_height="@dimen/dsetting_back_icon_size"
+        android:src="@drawable/gengduo"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        />
+    <View
+       style="@style/LineStyle"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

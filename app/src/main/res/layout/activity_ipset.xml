@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ip_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ip_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kongqibeijing"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:text="欢迎您，请先设置服务器"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_margin="10dp"
+            style="@style/LineStyle"
+            />
+
+        <com.chaychan.viewlib.PowerfulEditText
+            android:id="@+id/ipset_ip_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:hint="请输入设备显示的IP地址"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="18sp"
+            app:funcType="canClear" />
+
+        <View
+            style="@style/LineStyle"
+            android:layout_margin="10dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/setip_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            app:buttonColor="@color/submit_btn_normal"
+            android:text="确定"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/fhelp_one_tv"
+        android:layout_marginTop="10dp"
+        style="@style/LiuChengTextView"
+        android:text="1、第一条操作指引"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/fhelp_one_arrow_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/xiangxia" />
+
+    <RelativeLayout
+        android:id="@+id/fhelp_one_ani_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/azidong_back_iv">
+
+        <ImageView
+            android:id="@+id/fsetting_guanyu_logn_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_nong"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:layout_toRightOf="@+id/fsetting_guanyu_logn_iv"
+            android:textSize="14sp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="   农业智能，又称农务智能，简写为AI。与商业智能BI具有类似的定义，只是应用领域不同而已。"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
